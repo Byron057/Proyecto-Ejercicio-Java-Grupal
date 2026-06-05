@@ -4,17 +4,17 @@
  */
 package trabajo_en_grupo_8;
 
-/**
- *
- * @author PC
- */
 public class Trabajo_En_Grupo_8 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("==========Trabajo Grupo 8==========");
+        System.out.println("          Menu de Opciones          ");
+        System.out.println("1.Sistema de Login");
+        System.out.println("2.Numeros Positivos");
+        System.out.println("3.Nota 0-10");
     }
     
 }
