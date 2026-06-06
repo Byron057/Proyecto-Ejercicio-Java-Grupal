@@ -76,5 +76,10 @@ public class Trabajo_En_Grupo_8 {
             System.out.println("Contraseña Correcta");
             System.out.println("Intentos Fallidos: " + intentos);
         }
-    
+    public static void Numeros_positivos(){
+        System.out.println("numeros positivos");
+        
+        
+        
+    }
 }
