@@ -14,8 +14,9 @@ public class Trabajo_En_Grupo_8 {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         int opt = 0;
+        System.out.println("==========Trabajo Grupo 8==========");
         while (opt != 16){
-            System.out.println("==========Trabajo Grupo 8==========");
+            
             System.out.println("          Menu de Opciones          ");
             System.out.println("===================================");
             System.out.println("1.Sistema de Login");
@@ -35,7 +36,7 @@ public class Trabajo_En_Grupo_8 {
             System.out.println("15.Determinar Numeros Par");
             System.out.println("16.Salir del Sistema");
             System.out.println("===================================");
-            System.out.println("Ingrese una Opcion del Menu (1-15)");
+            System.out.println("Ingrese una Opcion del Menu (1-16)");
             
             opt = sc.nextInt();
             
@@ -48,7 +49,7 @@ public class Trabajo_En_Grupo_8 {
                     System.out.println("Saliendo del Sistema....");
                     break;
                 default:
-                    System.out.println("ingrese una Opcion Valida");
+                    System.out.println("ingrese una Opcion Valida (1-16)");
             }
         }
         
@@ -66,7 +67,8 @@ public class Trabajo_En_Grupo_8 {
             String contraseña = sc.nextLine();
             while(!contraseña_real.equals(contraseña)){
                 intentos++;
-                System.out.println("Intente otra vez");
+                System.out.println("Contraseña Incorrecta");
+                System.out.println("Ingrese Nuevamente");
                 contraseña =sc.nextLine();
                 
             }
