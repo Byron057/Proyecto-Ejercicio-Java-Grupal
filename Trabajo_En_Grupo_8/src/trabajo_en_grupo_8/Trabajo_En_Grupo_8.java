@@ -19,6 +19,9 @@ public class Trabajo_En_Grupo_8 {
         System.out.println("3.Nota 0-10");
         System.out.println("4.Cajero Automatico");
         System.out.println("5.Validar Numeros Enteros");
+        System.out.println("6.Inventario de una Tienda");
+        System.out.println("Ingresar Numeros Positivos");
+        System.out.println("8.Tabla de Multiplicar");
         System.out.println("===================================");
         System.out.println("Ingrese una Opcion Valida del Menu (1-15)");
         int opt = sc.nextInt();
