@@ -14,6 +14,7 @@ public class Trabajo_En_Grupo_8 {
         Scanner sc= new Scanner(System.in);
         System.out.println("==========Trabajo Grupo 8==========");
         System.out.println("          Menu de Opciones          ");
+        System.out.println("===================================");
         System.out.println("1.Sistema de Login");
         System.out.println("2.Numeros Positivos");
         System.out.println("3.Nota 0-10");
@@ -28,9 +29,9 @@ public class Trabajo_En_Grupo_8 {
         System.out.println("12.Secuencia Fibonnaci");
         System.out.println("13.Mayor y Menor de 10 Numeros");
         System.out.println("14.Suma de Numros Pares (1-200)");
-        System.out.println("15.Determinar Numeros PAr");
+        System.out.println("15.Determinar Numeros Par");
         System.out.println("===================================");
-        System.out.println("Ingrese una Opcion Valida del Menu (1-15)");
+        System.out.println("Ingrese una Opcion del Menu (1-15)");
         int opt = sc.nextInt();
          switch(opt){
             case 1:
