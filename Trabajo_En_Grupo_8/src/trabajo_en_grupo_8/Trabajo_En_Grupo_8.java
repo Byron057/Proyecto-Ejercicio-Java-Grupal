@@ -20,15 +20,15 @@ public class Trabajo_En_Grupo_8 {
         System.out.println("4.Cajero Automatico");
         System.out.println("5.Validar Numeros Enteros");
         System.out.println("6.Inventario de una Tienda");
-        System.out.println("Ingresar Numeros Positivos");
+        System.out.println("7.Ingresar Numeros Positivos");
         System.out.println("8.Tabla de Multiplicar");
         System.out.println("9.Calcular Factorial");
         System.out.println("10.Clasificar Numeros");
-        System.out.println("11. Promedio del Curso");
+        System.out.println("11.Promedio del Curso");
         System.out.println("12.Secuencia Fibonnaci");
         System.out.println("13.Mayor y Menor de 10 Numeros");
         System.out.println("14.Suma de Numros Pares (1-200)");
-        System.out.println("15. Determinar Numeros PAr");
+        System.out.println("15.Determinar Numeros PAr");
         System.out.println("===================================");
         System.out.println("Ingrese una Opcion Valida del Menu (1-15)");
         int opt = sc.nextInt();
