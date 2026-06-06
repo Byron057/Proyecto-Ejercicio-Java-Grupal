@@ -56,7 +56,7 @@ public class Trabajo_En_Grupo_8 {
     
      //Agregar Funciones Aqui para cada Ejercicio Segun el Menu de Opciones
         static void sistema_login(){
-            Scanner sc = Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
            int intentos = 0; 
            String contraseña_real = "Trabajo5626";
            
@@ -64,9 +64,9 @@ public class Trabajo_En_Grupo_8 {
             System.out.println("");
             System.out.println("Ingrese la contraseña");
             String contraseña = sc.nextLine();
-            while(contraseña_real.equals(contraseña)){
+            while(!contraseña_real.equals(contraseña)){
                 System.out.println("Intente otra vez");
-                
+                contraseña =sc.nextLine();
             }
         }
     
