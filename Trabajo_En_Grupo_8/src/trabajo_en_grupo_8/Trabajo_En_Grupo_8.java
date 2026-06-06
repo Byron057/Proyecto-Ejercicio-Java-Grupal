@@ -33,8 +33,10 @@ public class Trabajo_En_Grupo_8 {
             System.out.println("13.Mayor y Menor de 10 Numeros");
             System.out.println("14.Suma de Numros Pares (1-200)");
             System.out.println("15.Determinar Numeros Par");
+            System.out.println("16.Salir del Sistema");
             System.out.println("===================================");
             System.out.println("Ingrese una Opcion del Menu (1-15)");
+            
             opt = sc.nextInt();
             
             switch(opt){
