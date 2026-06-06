@@ -21,7 +21,13 @@ public class Trabajo_En_Grupo_8 {
         System.out.println("5.Validar Numeros Enteros");
         
         int opt = sc.nextInt();
-        
+         switch(opt){
+            case 1:
+                System.out.println("Caso 1");
+                break;
+            default:
+                System.out.println("ingrese una Opcion Valida");
+         }
         
         
     }
