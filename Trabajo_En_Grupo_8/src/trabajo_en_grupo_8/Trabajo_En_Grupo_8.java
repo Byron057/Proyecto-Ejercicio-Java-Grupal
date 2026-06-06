@@ -65,9 +65,14 @@ public class Trabajo_En_Grupo_8 {
             System.out.println("Ingrese la contraseña");
             String contraseña = sc.nextLine();
             while(!contraseña_real.equals(contraseña)){
+                intentos++;
                 System.out.println("Intente otra vez");
                 contraseña =sc.nextLine();
+                
             }
+            System.out.println("===================================");
+            System.out.println("Contraseña Correcta");
+            System.out.println("Intentos Fallidos: " + intentos);
         }
     
 }
