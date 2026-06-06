@@ -41,7 +41,7 @@ public class Trabajo_En_Grupo_8 {
             
             switch(opt){
                 case 1:
-                    System.out.println("Caso 1");
+                    sistema_login();
                     break;
                 //Crear Nuevos Casos para las funciones que faltan del menu
                 case 16:
@@ -52,8 +52,11 @@ public class Trabajo_En_Grupo_8 {
             }
         }
         
-        //Agregar Funciones Aqui para cada Ejercicio Segun el Menu de Opciones
-        
     }
+    
+     //Agregar Funciones Aqui para cada Ejercicio Segun el Menu de Opciones
+        static void sistema_login(){
+             System.out.println("Sistema de Login");
+        }
     
 }
