@@ -43,6 +43,9 @@ public class Trabajo_En_Grupo_8 {
                 case 1:
                     System.out.println("Caso 1");
                     break;
+                case 16:
+                    System.out.println("Saliendo del Sistema....");
+                    break;
                 default:
                     System.out.println("ingrese una Opcion Valida");
             }
