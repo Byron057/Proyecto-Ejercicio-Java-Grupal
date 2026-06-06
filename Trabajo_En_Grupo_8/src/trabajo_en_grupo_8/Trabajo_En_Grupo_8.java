@@ -43,13 +43,16 @@ public class Trabajo_En_Grupo_8 {
                 case 1:
                     System.out.println("Caso 1");
                     break;
+                //Crear Nuevos Casos para las funciones que faltan del menu
                 case 16:
                     System.out.println("Saliendo del Sistema....");
                     break;
                 default:
                     System.out.println("ingrese una Opcion Valida");
             }
-        } 
+        }
+        
+        //Agregar Funciones Aqui para cada Ejercicio Segun el Menu de Opciones
         
     }
     
