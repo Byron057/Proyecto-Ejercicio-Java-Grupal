@@ -10,8 +10,10 @@ public class Trabajo_En_Grupo_8 {
     /**
      * @param args the command line arguments
      */
+  
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
+        int opt = 0;
         while (opt == 16){
             System.out.println("==========Trabajo Grupo 8==========");
             System.out.println("          Menu de Opciones          ");
