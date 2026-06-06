@@ -22,6 +22,9 @@ public class Trabajo_En_Grupo_8 {
         System.out.println("6.Inventario de una Tienda");
         System.out.println("Ingresar Numeros Positivos");
         System.out.println("8.Tabla de Multiplicar");
+        System.out.println("9.Calcular Factorial");
+        System.out.println("10.Clasificar Numeros");
+        System.out.println("11. Promedio del Curso");
         System.out.println("===================================");
         System.out.println("Ingrese una Opcion Valida del Menu (1-15)");
         int opt = sc.nextInt();
