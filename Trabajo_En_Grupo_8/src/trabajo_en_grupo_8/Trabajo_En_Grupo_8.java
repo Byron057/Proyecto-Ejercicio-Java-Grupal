@@ -35,8 +35,9 @@ public class Trabajo_En_Grupo_8 {
             System.out.println("15.Determinar Numeros Par");
             System.out.println("===================================");
             System.out.println("Ingrese una Opcion del Menu (1-15)");
-            int opt = sc.nextInt();
-             switch(opt){
+            opt = sc.nextInt();
+            
+            switch(opt){
                 case 1:
                     System.out.println("Caso 1");
                     break;
