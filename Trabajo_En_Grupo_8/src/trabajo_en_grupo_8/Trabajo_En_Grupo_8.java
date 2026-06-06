@@ -56,7 +56,10 @@ public class Trabajo_En_Grupo_8 {
     
      //Agregar Funciones Aqui para cada Ejercicio Segun el Menu de Opciones
         static void sistema_login(){
-             System.out.println("Sistema de Login");
+           String Usuario = "Grupo8";
+           String contraseña = "Trabajo5626";
+           
+            System.out.println("==========Sistema de Login==========");
         }
     
 }
