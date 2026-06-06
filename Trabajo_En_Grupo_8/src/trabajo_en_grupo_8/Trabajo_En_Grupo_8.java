@@ -25,6 +25,8 @@ public class Trabajo_En_Grupo_8 {
         System.out.println("9.Calcular Factorial");
         System.out.println("10.Clasificar Numeros");
         System.out.println("11. Promedio del Curso");
+        System.out.println("12.Secuencia Fibonnaci");
+        System.out.println("13.Mayor y Menor de 10 Numeros");
         System.out.println("===================================");
         System.out.println("Ingrese una Opcion Valida del Menu (1-15)");
         int opt = sc.nextInt();
