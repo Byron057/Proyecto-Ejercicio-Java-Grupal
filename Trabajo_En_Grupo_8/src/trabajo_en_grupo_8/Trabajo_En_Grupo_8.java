@@ -122,14 +122,16 @@ public class Trabajo_En_Grupo_8 {
     public static void Nota_cerodiez(){
     System.out.println("----Ingresando al sistema de cero y diez-----");
     Scanner sc = new Scanner(System.in);
-    
     double nota;
-    System.out.println("Ingres una nota entre cero y diez: ");
-    nota =sc.nextDouble();
     
-    while (nota < 0 || nota >10){
-        System.out.println("Nota invalida ingrese una nota entre 0 y 10");
+    while (true){
+        System.out.println("ingrese una nota entre 0 y 10");
         nota=sc.nextDouble();
+        if(nota>=0 && nota <=10){
+            break;
+            
+        }
+        System.out.println("nota invalida");
     }
     System.out.println("La nota valida es: "+nota);
  }
