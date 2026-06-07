@@ -192,6 +192,10 @@ public class Trabajo_En_Grupo_8 {
           }
               System.out.println("cantidad de numeros pares:"+pares);
               System.out.println("cantidad de numeos impares: "+impares);
+              
+              
+              
+              System.out.println("ejercico 6 "); //Emerson Yanchapanta  
       
         }
       
