@@ -249,6 +249,9 @@ public class Trabajo_En_Grupo_8 {
             System.out.println("El numero puesto no funciona para factorial");
             }else{
             long factorial=1;
+            for(int i=1 ; i<=n111 ; i++){
+                factorial = factorial * i;
+            }
       
         
         
