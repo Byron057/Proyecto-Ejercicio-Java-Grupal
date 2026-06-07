@@ -252,6 +252,9 @@ public class Trabajo_En_Grupo_8 {
             for(int i=1 ; i<=n111 ; i++){
                 factorial = factorial * i;
             }
+            System.out.println("El factorial de "+n111);
+            System.out.println("es "+factorial);
+        }
       
         
         
