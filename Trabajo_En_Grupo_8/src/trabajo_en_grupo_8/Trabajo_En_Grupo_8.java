@@ -234,6 +234,9 @@ public class Trabajo_En_Grupo_8 {
         System.out.println("Ingrese un numero positivo");
         cons=sc.nextInt();
         System.out.println("Tabla de multiplicar del " +cons);
+        for (int i=1; i<=20; i++){
+            System.out.println(cons + " x " + i + " = " + (cons * i));
+            }
         
         
         
