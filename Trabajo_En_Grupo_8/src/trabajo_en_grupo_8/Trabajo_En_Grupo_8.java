@@ -171,7 +171,7 @@ public class Trabajo_En_Grupo_8 {
 
 
         public static void Numeros_pares_impares(){
-          System.out.println("Imgresando al sistema de numeros pares e impares");
+          System.out.println("----Ingresando al sistema de numeros pares e impares------");
           Scanner sc = new Scanner(System.in);
           
           int numero;
@@ -181,7 +181,7 @@ public class Trabajo_En_Grupo_8 {
           numero =sc.nextInt();
           
           while(numero != 0){
-              if (numero % == 2){
+              if (numero % 2 == 0){
                   pares;
               
               }else{
