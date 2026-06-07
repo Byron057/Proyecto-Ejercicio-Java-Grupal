@@ -203,6 +203,9 @@ public class Trabajo_En_Grupo_8 {
             System.out.println("ingrese la venta");
             System.out.println("con 0 se detendra el sistema");
             ven = sc.nextDouble();
+            if(ven !=0){
+                total+=ven;
+                canti++;
         
       
         }
