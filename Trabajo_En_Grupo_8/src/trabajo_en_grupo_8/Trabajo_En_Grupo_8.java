@@ -51,6 +51,8 @@ public class Trabajo_En_Grupo_8 {
                 case 3:
                     Nota_cerodiez();
                     break;
+                case 4:
+                    Cajero_automatico();
                 case 16:
                     System.out.println("Saliendo del Sistema....");
                     break;
@@ -136,7 +138,22 @@ public class Trabajo_En_Grupo_8 {
     System.out.println("La nota valida que se registro es: "+nota);
  }
  
-}
-        
+
+     public static void Cajero_automatico(){
+        System.out.println("-----INGRESANDO AL SISTEMA DE CAJERO AUTOMATICO---"); 
+        Scanner sc = new Scanner(System.in);
+        String clave;
+         for (int i = 1; i <= 3; i++) {
+             System.out.println("igrese la clave de acceso");
+             clave =sc.nextLine();
+             if(clave.equals("1234")){
+                 System.out.println("bienvenido al cajero");
+             }
+             
+         }
+   
+         System.out.println("acceso bloqueado");
+   }     
     
 
+}
