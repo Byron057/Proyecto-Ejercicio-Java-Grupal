@@ -230,7 +230,8 @@ public class Trabajo_En_Grupo_8 {
         
         
         System.out.println("ejercico 8 "); //Emerson Yanchapanta  
-        
+        int cons=0;
+        System.out.println("Ingrese un numero positivo");
         
         
         
