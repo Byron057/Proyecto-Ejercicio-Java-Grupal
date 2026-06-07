@@ -54,6 +54,9 @@ public class Trabajo_En_Grupo_8 {
                 case 4:
                     Cajero_automatico();
                     break;
+                case 5:
+                    Numeros_pares_impares();
+                    break;
                 case 16:
                     System.out.println("Saliendo del Sistema....");
                     break;
@@ -164,6 +167,33 @@ public class Trabajo_En_Grupo_8 {
          System.out.println("acceso bloqueado");
    }     
     
+}
 
-}
-}
+
+      public static void Numeros_pares_impares(){
+          System.out.println("Imgresando al sistema de numeros pares e impares");
+          Scanner sc = new Scanner(System.in);
+          
+          int numero;
+          int pares;
+          int impares;
+          System.out.println("Ingrese numeros enteros ,0 para terminar el sistema");
+          numero =sc.nextInt();
+          
+          while(numero = 0){
+              if (numero == 2){
+                  pares;
+              
+              }else{
+                   impares;
+              }
+              System.out.println("cantidad de numeros pares:"+pares);
+              System.out.println("cantidad de numeos impares: "+impares);
+          }
+       
+      
+      }
+      
+  
+}      
+          
