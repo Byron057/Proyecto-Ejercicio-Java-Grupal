@@ -258,12 +258,19 @@ public class Trabajo_En_Grupo_8 {
         
          System.out.println("FIN DE MI PARTE EMERSON YANCHAPANTA : ");
       
-        
+       }
+      public static void Nueros_positivos_negativos(){
+       System.out.println("----ejercicio 10-----");//aracely toapanta 
+        Scanner sc = new Scanner(System.in);  
+      }
+         
+                
+                
         
         
       
       
-        }
+        
       
   
     
