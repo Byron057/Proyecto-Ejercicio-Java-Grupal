@@ -48,6 +48,9 @@ public class Trabajo_En_Grupo_8 {
                     Numeros_positivos();
                     break;
                 //Crear Nuevos Casos para las funciones que faltan del menu
+                case 3:
+                    Nota_cerodiez();
+                    break;
                 case 16:
                     System.out.println("Saliendo del Sistema....");
                     break;
@@ -116,7 +119,20 @@ public class Trabajo_En_Grupo_8 {
         }
     }
 }
-
+public static void Nota_cerodiez(){
+    System.out.println("Ingresando al sistema de cero y diez");
+    Scanner sc = new Scanner(System.in);
+    
+    double nota;
+    System.out.println("Ingres una nota entre cero y diez: ");
+    nota =sc.nextDouble();
+    
+    while (nota < 0 = nota >10){
+        System.out.println("Nota invalida ingrese una nota entre 0 y 10");
+        nota=sc.nextDouble();
+    }
+    System.out.println("La nota valida es: "+nota);
+}
         
         
     
