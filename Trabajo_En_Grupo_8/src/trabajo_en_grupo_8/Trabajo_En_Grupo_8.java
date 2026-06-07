@@ -150,11 +150,14 @@ public class Trabajo_En_Grupo_8 {
              System.out.println("igrese la clave de acceso");
              clave =sc.nextLine();
              ingreso=sc.nextLine();
-             if(clave.equals("1234")){
+             if(ingreso.equals("1234")){
                  System.out.println("bienvenido al cajero");
                  break;
              }
-             
+             else{
+                 intentos ++;
+                 System.out.println("clave incorrecta");
+             }
          }
    
          System.out.println("acceso bloqueado");
