@@ -125,15 +125,15 @@ public class Trabajo_En_Grupo_8 {
     double nota;
     
     while (true){
-        System.out.println("ingrese una nota entre 0 y 10");
+        System.out.println("ingrese una nota entre 0 y 10 unicamente:  ");
         nota=sc.nextDouble();
         if(nota>=0 && nota <=10){
             break;
             
         }
-        System.out.println("nota invalida");
-    }
-    System.out.println("La nota valida es: "+nota);
+        System.out.println("nota invalidaingrese");
+    } 
+    System.out.println("La nota valida que se registro es: "+nota);
  }
  
 }
