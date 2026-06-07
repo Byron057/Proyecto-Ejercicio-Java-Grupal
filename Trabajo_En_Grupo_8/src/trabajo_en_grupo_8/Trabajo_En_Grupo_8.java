@@ -220,6 +220,8 @@ public class Trabajo_En_Grupo_8 {
         do {
             System.out.print("Ingrese un numero: ");
             numero = sc.nextInt();
+            if (numero >= 0) {
+                cantidad++;
       
         }
       
