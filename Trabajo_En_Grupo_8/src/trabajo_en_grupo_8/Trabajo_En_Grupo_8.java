@@ -225,6 +225,18 @@ public class Trabajo_En_Grupo_8 {
                 }
         } while (numero12 >= 0);
         System.out.println("Cantidad de numeros ingresados: " + cantidad);
+        
+        
+        
+        
+        System.out.println("ejercico 8 "); //Emerson Yanchapanta  
+        
+        
+        
+        
+        
+        
+      
       
         }
       
