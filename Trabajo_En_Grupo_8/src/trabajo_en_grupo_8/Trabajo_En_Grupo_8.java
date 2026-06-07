@@ -142,7 +142,10 @@ public class Trabajo_En_Grupo_8 {
      public static void Cajero_automatico(){
         System.out.println("-----INGRESANDO AL SISTEMA DE CAJERO AUTOMATICO---"); 
         Scanner sc = new Scanner(System.in);
-        String clave;
+        String clave="1234"
+        string ingreso;
+        int intentos=0;
+        
          for (int i = 1; i <= 3; i++) {
              System.out.println("igrese la clave de acceso");
              clave =sc.nextLine();
