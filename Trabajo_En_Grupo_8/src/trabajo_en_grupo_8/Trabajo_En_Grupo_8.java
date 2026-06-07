@@ -214,7 +214,9 @@ public class Trabajo_En_Grupo_8 {
         
         
         System.out.println("ejercico 7 "); //Emerson Yanchapanta  
-        
+        int cantidad = 0;
+        int numero;
+        System.out.println("Se necesita un negativo para terminar");
       
         }
       
