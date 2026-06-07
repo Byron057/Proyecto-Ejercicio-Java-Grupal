@@ -53,6 +53,7 @@ public class Trabajo_En_Grupo_8 {
                     break;
                 case 4:
                     Cajero_automatico();
+                    break;
                 case 16:
                     System.out.println("Saliendo del Sistema....");
                     break;
@@ -147,11 +148,11 @@ public class Trabajo_En_Grupo_8 {
         int intentos=0;
         
          while(intentos < 3) {
-             System.out.println("igrese la clave de acceso");
-             clave =sc.nextLine();
+             System.out.println("Ingrese la clave de acceso: ");
+             
              ingreso=sc.nextLine();
-             if(ingreso.equals("1234")){
-                 System.out.println("bienvenido al cajero");
+             if(ingreso.equals(clave)){
+                 System.out.println("Bienvenido al cajero");
                  break;
              }
              else{
