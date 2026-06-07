@@ -80,14 +80,16 @@ public class Trabajo_En_Grupo_8 {
             System.out.println("Intentos Fallidos: " + intentos);
         }
     public static void Numeros_positivos(){
-        System.out.println("Sistema de Numeros positivos");
+        System.out.println("Ingresando al Sistema de Numeros positivos");
         
         Scanner sc = new Scanner(System.in);
         int suma = 0;
         int contador = 0;
         int numero;
 
-        System.out.println("Introduce numeros positivos (si se ingresa un negativo empezara hacer operaciones):");
+        System.out.println("Introduce numeros positivos: ");
+        System.out.println("---SI SE INGRESA UN NUMERO NEGATIVO DE PRINCIPIO SE CERRARA EL SISTEMA----");
+        System.out.println("---SI SE INGRESA NUMERO NEGATIVO DESPUES DE INGRESAR UN POSITIVO EL SISTEMA REALIZARA SUS OPERACIONES---");
 
         while (true) {
           numero =sc.nextInt();
@@ -96,7 +98,7 @@ public class Trabajo_En_Grupo_8 {
 
         
           if (numero < 0) {
-              System.out.println("numero negativo detectado,se empearan hacer las operaciones");
+              System.out.println("numero negativo detectado");
           break;
         }
           suma += numero;
