@@ -44,6 +44,8 @@ public class Trabajo_En_Grupo_8 {
                 case 1:
                     sistema_login();
                     break;
+                case 2:
+                    Numeros_positivos();
                 //Crear Nuevos Casos para las funciones que faltan del menu
                 case 16:
                     System.out.println("Saliendo del Sistema....");
@@ -79,7 +81,34 @@ public class Trabajo_En_Grupo_8 {
     public static void Numeros_positivos(){
         System.out.println("numeros positivos");
         
+        Scanner sc = new Scanner(System.in);
         
-        
+        int suma = 0;
+        int contador = 0;
+        int numero;
+
+        System.out.println("Introduce numeros (un negativo para terminar):");
+        numero = sc.nextInt();
+
+        while (true) {
+          numero =sc.nextInt();
+        }
+
+        // Si ingresó al menos un número positivo, muestra resultados
+        if (numero < 0) {
+            suma = suma + numero;
+            contador = contador + 1;
+            double promedio = (double) suma / contador;
+            System.out.println("Cantidad: " + contador);
+            System.out.println("Suma: " + suma);
+            System.out.println("Promedio: " + promedio);
+        } else {
+            System.out.println("No se ingresaron números positivos.");
+        }
     }
 }
+
+        
+        
+    
+
