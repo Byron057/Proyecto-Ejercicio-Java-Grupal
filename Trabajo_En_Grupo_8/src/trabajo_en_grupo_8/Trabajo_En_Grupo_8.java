@@ -215,15 +215,15 @@ public class Trabajo_En_Grupo_8 {
         
         System.out.println("ejercico 7 "); //Emerson Yanchapanta  
         int cantidad = 0;
-        int numero;
+        int numero12=0;
         System.out.println("Se necesita un negativo para terminar");
         do {
             System.out.print("Ingrese un numero: ");
-            numero = sc.nextInt();
-            if (numero >= 0) {
+            numero12 = sc.nextInt();
+            if (numero12 >= 0) {
                 cantidad++;
                 }
-        } while (numero >= 0);
+        } while (numero12 >= 0);
         System.out.println("Cantidad de numeros ingresados: " + cantidad);
       
         }
