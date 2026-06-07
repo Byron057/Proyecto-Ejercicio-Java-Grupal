@@ -82,22 +82,26 @@ public class Trabajo_En_Grupo_8 {
         System.out.println("numeros positivos");
         
         Scanner sc = new Scanner(System.in);
-        
         int suma = 0;
         int contador = 0;
         int numero;
 
         System.out.println("Introduce numeros (un negativo para terminar):");
-        numero = sc.nextInt();
 
         while (true) {
           numero =sc.nextInt();
-        }
+        
 
         // Si ingresó al menos un número positivo, muestra resultados
-        if (numero < 0) {
-            suma = suma + numero;
-            contador = contador + 1;
+          if (numero < 0) {
+          break;
+        }
+          suma += numero;
+            contador ++;
+            
+        }
+        if (contador > 0){
+            
             double promedio = (double) suma / contador;
             System.out.println("Cantidad: " + contador);
             System.out.println("Suma: " + suma);
