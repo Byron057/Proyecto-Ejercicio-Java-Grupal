@@ -211,6 +211,10 @@ public class Trabajo_En_Grupo_8 {
         System.out.println("Total vendido: "+total);
         System.out.println("Cantidad de ventas: "+canti);
         
+        
+        
+        System.out.println("ejercico 7 "); //Emerson Yanchapanta  
+        
       
         }
       
