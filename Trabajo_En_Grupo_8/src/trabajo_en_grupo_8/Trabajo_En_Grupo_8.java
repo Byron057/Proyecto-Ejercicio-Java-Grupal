@@ -222,6 +222,9 @@ public class Trabajo_En_Grupo_8 {
             numero = sc.nextInt();
             if (numero >= 0) {
                 cantidad++;
+                }
+        } while (numero >= 0);
+        System.out.println("Cantidad de numeros ingresados: " + cantidad);
       
         }
       
