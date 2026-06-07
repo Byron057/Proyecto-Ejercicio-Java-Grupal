@@ -199,6 +199,9 @@ public class Trabajo_En_Grupo_8 {
               Scanner sc= new Scanner(System.in);
               double total=0;
               int canti=0;
+              do{
+            System.out.println("ingrese la venta");
+            System.out.println("con 0 se detendra el sistema");
         
       
         }
