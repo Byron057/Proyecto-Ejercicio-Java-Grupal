@@ -159,9 +159,10 @@ public class Trabajo_En_Grupo_8 {
                  System.out.println("clave incorrecta");
              }
          }
-   
+        if (intentos == 3){
          System.out.println("acceso bloqueado");
    }     
     
 
+}
 }
