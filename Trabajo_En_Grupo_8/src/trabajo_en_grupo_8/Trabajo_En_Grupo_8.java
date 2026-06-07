@@ -247,6 +247,8 @@ public class Trabajo_En_Grupo_8 {
         int n111 = sc.nextInt();
         if(n111<0){
             System.out.println("El numero puesto no funciona para factorial");
+            }else{
+            long factorial=1;
       
         
         
