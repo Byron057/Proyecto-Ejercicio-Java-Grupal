@@ -206,6 +206,10 @@ public class Trabajo_En_Grupo_8 {
             if(ven !=0){
                 total+=ven;
                 canti++;
+                }
+        }while(ven !=0);
+        System.out.println("Total vendido: "+total);
+        System.out.println("Cantidad de ventas: "+canti);
         
       
         }
