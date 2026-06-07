@@ -196,6 +196,10 @@ public class Trabajo_En_Grupo_8 {
               
               
               System.out.println("ejercico 6 "); //Emerson Yanchapanta  
+              Scanner sc= new Scanner(System.in);
+              double total=0;
+              int canti=0;
+        
       
         }
       
