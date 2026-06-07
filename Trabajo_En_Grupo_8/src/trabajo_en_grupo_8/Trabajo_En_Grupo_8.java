@@ -170,18 +170,18 @@ public class Trabajo_En_Grupo_8 {
 }
 
 
-      public static void Numeros_pares_impares(){
+        public static void Numeros_pares_impares(){
           System.out.println("Imgresando al sistema de numeros pares e impares");
           Scanner sc = new Scanner(System.in);
           
           int numero;
-          int pares;
-          int impares;
+          int pares=0
+          int impares=0
           System.out.println("Ingrese numeros enteros ,0 para terminar el sistema");
           numero =sc.nextInt();
           
-          while(numero = 0){
-              if (numero == 2){
+          while(numero != 0){
+              if (numero % == 2){
                   pares;
               
               }else{
@@ -192,7 +192,7 @@ public class Trabajo_En_Grupo_8 {
           }
        
       
-      }
+        }
       
   
 }      
