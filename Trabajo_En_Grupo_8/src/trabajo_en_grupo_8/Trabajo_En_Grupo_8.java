@@ -241,9 +241,10 @@ public class Trabajo_En_Grupo_8 {
         
         
         
-      System.out.println("ejercico 9 "); //Emerson Yanchapanta 
-       System.out.println("ejercico  8+1=9 "); //Emerson Yanchapanta 
-      
+        System.out.println("ejercico 9 "); //Emerson Yanchapanta 
+        System.out.println("ejercico  8+1=9 "); //Emerson Yanchapanta 
+        System.out.println("ingrese un numero: ");
+        int n111 = sc.nextInt();
       
         
         
