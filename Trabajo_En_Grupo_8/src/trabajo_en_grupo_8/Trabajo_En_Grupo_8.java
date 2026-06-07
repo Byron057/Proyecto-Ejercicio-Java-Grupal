@@ -177,7 +177,7 @@ public class Trabajo_En_Grupo_8 {
           int numero;
           int pares=0;
           int impares=0;
-          System.out.println("Ingrese numeros enteros ,0 para terminar el sistema");
+          System.out.println("Ingrese numeros enteros y con 0 para terminar el sistema: ");
           numero =sc.nextInt();
           
           while(numero != 0){
