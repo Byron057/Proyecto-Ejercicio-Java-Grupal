@@ -149,8 +149,10 @@ public class Trabajo_En_Grupo_8 {
          while(intentos < 3) {
              System.out.println("igrese la clave de acceso");
              clave =sc.nextLine();
+             ingreso=sc.nextLine();
              if(clave.equals("1234")){
                  System.out.println("bienvenido al cajero");
+                 break;
              }
              
          }
