@@ -217,6 +217,9 @@ public class Trabajo_En_Grupo_8 {
         int cantidad = 0;
         int numero;
         System.out.println("Se necesita un negativo para terminar");
+        do {
+            System.out.print("Ingrese un numero: ");
+            numero = sc.nextInt();
       
         }
       
