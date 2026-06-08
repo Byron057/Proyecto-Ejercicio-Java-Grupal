@@ -303,6 +303,8 @@ public class Trabajo_En_Grupo_8 {
        public static void Secuencias_de_Fibonacci(){
         System.out.println("----ejercicio 12-----");//aracely toapanta 
         Scanner sc = new Scanner(System.in);
+        int n;
+        int a = 0, b = 1, c;
         }
         
         
