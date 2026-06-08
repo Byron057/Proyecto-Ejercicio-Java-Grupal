@@ -307,6 +307,7 @@ public class Trabajo_En_Grupo_8 {
         int a = 0, b = 1, c;
         System.out.print("Ingrese la cantidad de términos: ");
         n = sc.nextInt();
+        System.out.println("Secuencia de Fibonacci:");
         }
         
         
