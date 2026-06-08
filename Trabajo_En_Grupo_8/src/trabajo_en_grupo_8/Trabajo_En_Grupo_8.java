@@ -299,11 +299,15 @@ public class Trabajo_En_Grupo_8 {
             promedio = suma / 20;
             System.out.println("El promedio general del curso es: " + promedio);
             
-            
-             
-            
         }
-    }
+       public static void Secuencias_de_Fibonacci(){
+        System.out.println("----ejercicio 12-----");//aracely toapanta 
+        Scanner sc = new Scanner(System.in);
+        }
+        
+        
+       
+      }
         
         
         
