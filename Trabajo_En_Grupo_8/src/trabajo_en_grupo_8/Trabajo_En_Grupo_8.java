@@ -297,11 +297,13 @@ public class Trabajo_En_Grupo_8 {
             }
         
             promedio = suma / 20;
+            System.out.println("El promedio general del curso es: " + promedio);
+            
             
              
             
         }
-            }
+    }
         
         
         
