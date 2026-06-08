@@ -314,10 +314,15 @@ public class Trabajo_En_Grupo_8 {
             a = b;
             b = c;
         }
-        
+       
                     
     }
+       public static void Numero_maoy_y_menor(){
+        System.out.println("----ejercicio 12-----");//aracely toapanta 
+        Scanner sc = new Scanner(System.in);
       }
+       }
+       
         
         
        
