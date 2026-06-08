@@ -318,10 +318,15 @@ public class Trabajo_En_Grupo_8 {
                     
     }
        public static void Numero_maoy_y_menor(){
-        System.out.println("----ejercicio 12-----");//aracely toapanta 
         System.out.println("----ejercicio 13-----");//aracely toapanta 
         Scanner sc = new Scanner(System.in);
+        int num;
+        int mayor = 0;
+        int menor = 0;
+
+        for (int i = 1; i <= 10; i++) {
       }
+       }
        }
        
         
