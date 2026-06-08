@@ -310,13 +310,18 @@ public class Trabajo_En_Grupo_8 {
         System.out.println("Secuencia de Fibonacci:");
         for (int i = 1; i <= n; i++) {
             System.out.print(a + " ");
-            
-                    
+            c = a + b;
+            a = b;
+            b = c;
         }
+        
+                    
+    }
+      }
         
         
        
-      }
+      
         
         
         
