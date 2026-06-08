@@ -277,6 +277,10 @@ public class Trabajo_En_Grupo_8 {
                 ceros++;
             }
         }
+        System.out.println("Cantidad de positivos: " + positivos);
+        System.out.println("Cantidad de negativos: " + negativos);
+        System.out.println("Cantidad de ceros: " + ceros);
+        
          }
          
         
