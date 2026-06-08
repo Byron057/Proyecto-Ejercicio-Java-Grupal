@@ -283,7 +283,9 @@ public class Trabajo_En_Grupo_8 {
         
          }
          
-        
+       public static void Promedio_de_20_estudiantes(){
+        System.out.println("----ejercicio 11-----");//aracely toapanta 
+        Scanner sc = new Scanner(System.in); 
       }
          
                 
