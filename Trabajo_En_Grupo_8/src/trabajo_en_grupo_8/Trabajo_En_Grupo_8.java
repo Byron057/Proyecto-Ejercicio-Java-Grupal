@@ -286,17 +286,21 @@ public class Trabajo_En_Grupo_8 {
        public static void Promedio_de_20_estudiantes(){
         System.out.println("----ejercicio 11-----");//aracely toapanta 
         Scanner sc = new Scanner(System.in); 
-      }
+        double nota;
+        double suma = 0;
+        double promedio;
+
+        for (int i = 1; i <= 20; i++) {
+            
+        }
+            }
+        
+        
+        }
+        
          
                 
                 
         
         
-      
-      
-        
-      
-  
-    
-          
-}
+ 
