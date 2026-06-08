@@ -331,10 +331,18 @@ public class Trabajo_En_Grupo_8 {
                 mayor = num;
                 menor = num;
             } else {
+                if (num > mayor) {
+                    mayor = num;
+                }
+
+                if (num < menor) {
+                    menor = num;
       }
        }
        }
+        }
        }
+       
        
         
         
