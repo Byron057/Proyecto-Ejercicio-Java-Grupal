@@ -291,6 +291,7 @@ public class Trabajo_En_Grupo_8 {
         double promedio;
 
         for (int i = 1; i <= 20; i++) {
+            System.out.print("Ingrese la calificación del estudiante " + i + ": ");
             
         }
             }
