@@ -342,6 +342,7 @@ public class Trabajo_En_Grupo_8 {
        }
         System.out.println("El número mayor es: " + mayor);
         System.out.println("El número menor es: " + menor);
+           System.out.println("parte de aracely");
         }
        }
        
