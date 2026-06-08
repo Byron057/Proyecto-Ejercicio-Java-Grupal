@@ -327,7 +327,12 @@ public class Trabajo_En_Grupo_8 {
         for (int i = 1; i <= 10; i++) {
             System.out.print("Ingrese un número: ");
             num = sc.nextInt();
+            if (i == 1) {
+                mayor = num;
+                menor = num;
+            } else {
       }
+       }
        }
        }
        
