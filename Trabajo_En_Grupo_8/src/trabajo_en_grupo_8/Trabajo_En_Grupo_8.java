@@ -262,6 +262,14 @@ public class Trabajo_En_Grupo_8 {
       public static void Nueros_positivos_negativos(){
        System.out.println("----ejercicio 10-----");//aracely toapanta 
         Scanner sc = new Scanner(System.in);  
+         int num;
+         int positivos = 0;
+         int negativos = 0;
+         int ceros = 0;
+         for (int i= 1; i <= 15; i++){ 
+         }
+         
+        
       }
          
                 
