@@ -267,6 +267,8 @@ public class Trabajo_En_Grupo_8 {
          int negativos = 0;
          int ceros = 0;
          for (int i= 1; i <= 15; i++){ 
+             System.out.print("Ingrese un número: ");
+            num = sc.nextInt();
          }
          
         
