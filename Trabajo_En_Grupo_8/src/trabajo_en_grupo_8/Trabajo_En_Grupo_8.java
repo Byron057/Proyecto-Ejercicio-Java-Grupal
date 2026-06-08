@@ -30,10 +30,10 @@ public class Trabajo_En_Grupo_8 {
             System.out.println("9.Calcular Factorial");
             System.out.println("10.Clasificar Numeros");
             System.out.println("11.Promedio del Curso");
-            System.out.println("12.Secuencia Fibonnaci");
+            System.out.println("12.Secuencia Fibonacci");
             System.out.println("13.Mayor y Menor de 10 Numeros");
-            System.out.println("14.Suma de Numros Pares (1-200)");
-            System.out.println("15.Determinar Numeros Par");
+            System.out.println("14.Suma de Numeros Pares (1-200)");
+            System.out.println("15.Determinar Numeros Primos");
             System.out.println("16.Salir del Sistema");
             System.out.println("===================================");
             System.out.println("Ingrese una Opcion del Menu (1-16)");
@@ -58,7 +58,35 @@ public class Trabajo_En_Grupo_8 {
                     Numeros_pares_impares();
                     break;
                 case 6:
-                    
+                    Inventario_Tienda();
+                    break;
+                case 7:
+                    Numeros_Positivos();
+                    break;
+                case 8:
+                    Tabla_multiplicar();
+                    break;
+                case 9:
+                    Calcular_factorial();
+                    break;
+                case 10:
+                    Numeros_positivos_negativos();
+                    break;
+                case 11:
+                    Promedio_de_20_estudiantes();
+                    break;
+                case 12:
+                    Secuencias_de_Fibonacci();
+                    break;
+                case 13:
+                    Numero_mayor_y_menor();
+                    break;
+                case 14:
+                    suma_numeros_pares();
+                    break;
+                case 15:
+                    determinar_numero_primo();
+                    break;
                 case 16:
                     System.out.println("Saliendo del Sistema....");
                     break;
@@ -159,8 +187,7 @@ public class Trabajo_En_Grupo_8 {
             if(ingreso.equals(clave)){
                 System.out.println("Bienvenido al cajero");
                 break;
-            }
-            else{
+            }else{
                  intentos ++;
                 System.out.println("clave incorrecta");
             }
@@ -184,19 +211,18 @@ public class Trabajo_En_Grupo_8 {
         while(numero != 0){
             if (numero % 2 == 0){
                 pares++;      
-            }
-            else{
+            }else{
                 impares++;
             }
             numero =sc.nextInt();  
         }
         System.out.println("cantidad de numeros pares:"+pares);
-        System.out.println("cantidad de numeos impares: "+impares);
+        System.out.println("cantidad de numeros impares: "+impares);
     }  
               
     public static void Inventario_Tienda(){
         Scanner sc= new Scanner(System.in);
-            System.out.println("ejercico 6 "); //Emerson Yanchapanta  
+            System.out.println("Ejercicio 6 "); //Emerson Yanchapanta  
             double total=0;
             double ven;
             int canti=0;
@@ -216,7 +242,7 @@ public class Trabajo_En_Grupo_8 {
         
     public static void Numeros_Positivos(){
         Scanner sc= new Scanner(System.in);
-        System.out.println("ejercico 7 "); //Emerson Yanchapanta  
+        System.out.println("Ejercicio 7"); //Emerson Yanchapanta  
         int cantidad = 0;
         int numero12=0;
         System.out.println("Se necesita un negativo para terminar");
@@ -234,7 +260,7 @@ public class Trabajo_En_Grupo_8 {
         
     public static void Tabla_multiplicar(){ 
         Scanner sc= new Scanner(System.in);
-        System.out.println("ejercico 8 "); //Emerson Yanchapanta  
+        System.out.println("Ejercicio 8"); //Emerson Yanchapanta  
         int cons=0;
         System.out.println("Ingrese un numero positivo");
         cons=sc.nextInt();
@@ -247,8 +273,7 @@ public class Trabajo_En_Grupo_8 {
         
     public static void Calcular_factorial(){ 
         Scanner sc= new Scanner(System.in);
-        System.out.println("ejercico 9 "); //Emerson Yanchapanta 
-        System.out.println("ejercico  8+1=9 "); //Emerson Yanchapanta 
+        System.out.println("Ejercicio 9"); //Emerson Yanchapanta 
         System.out.println("ingrese un numero: ");
         int n111 = sc.nextInt();
         if(n111<0){
@@ -265,7 +290,7 @@ public class Trabajo_En_Grupo_8 {
          System.out.println("FIN DE MI PARTE EMERSON YANCHAPANTA : ");
       
        }
-    public static void Nueros_positivos_negativos(){
+    public static void Numeros_positivos_negativos(){
        System.out.println("----ejercicio 10-----");//aracely toapanta 
         Scanner sc = new Scanner(System.in);  
          int num;
@@ -323,7 +348,7 @@ public class Trabajo_En_Grupo_8 {
     }
                     
     
-    public static void Numero_maoy_y_menor(){
+    public static void Numero_mayor_y_menor(){
         System.out.println("----ejercicio 13-----");//aracely toapanta 
         Scanner sc = new Scanner(System.in);
         int num;
@@ -336,8 +361,7 @@ public class Trabajo_En_Grupo_8 {
             if (i == 1) {
                 mayor = num;
                 menor = num;
-            } 
-            else {
+            }else {
                 if (num > mayor) {
                     mayor = num;
                 }
@@ -351,21 +375,37 @@ public class Trabajo_En_Grupo_8 {
         System.out.println("El número menor es: " + menor);
         System.out.println("parte de aracely");
     }
-
+    public static void suma_numeros_pares() {
+        System.out.println("---- Suma de Números Pares (1 - 200) ----");
+        int suma = 0;
+        for (int i = 1; i <= 200; i++) {
+            if (i % 2 == 0) {
+                suma += i; 
+            }
+        }
+        System.out.println("La suma de todos los números pares comprendidos entre 1 y 200 es: " + suma);
+    }
+    public static void determinar_numero_primo() {
+        System.out.println("---- Determinar si un Número es Primo ----");
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Ingrese un número entero positivo: ");
+        int numero = sc.nextInt();
+        int cantidadDivisores = 0;
+        if (numero <= 1) {
+            System.out.println("El número " + numero + " NO es primo.");
+        } else {
+            for (int i = 1; i <= numero; i++) {
+                if (numero % i == 0) {
+                    cantidadDivisores++; 
+                }
+            }
+            if (cantidadDivisores == 2) {
+                System.out.println("El número " + numero + " es PRIMO.");
+            } else {
+                System.out.println("El número " + numero + " NO es primo (tiene " + cantidadDivisores + " divisores).");
+            }
+        }
+    }
 }
     
-       
-        
-        
-       
-      
-        
-        
-        
-        
-         
-                
-                
-        
-        
- 
