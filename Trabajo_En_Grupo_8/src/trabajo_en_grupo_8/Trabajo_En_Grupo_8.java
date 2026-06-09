@@ -13,6 +13,7 @@ public class Trabajo_En_Grupo_8 {
   
     public static void main(String[] args) {
         System.out.println("Hola, diego estuvo aqui");
+        System.out.println("Diego flores estuvo aca");
         Scanner sc= new Scanner(System.in);
         int opt = 0;
         System.out.println("==========Trabajo Grupo 8==========");
